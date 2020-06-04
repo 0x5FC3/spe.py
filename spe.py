@@ -214,8 +214,6 @@ def encode(payload_path):
     encoded_payload = encode_payload(payload, key)
     decoder_stub = generate_decoder_stub(len(payload), key)
 
-    print(format_payload(decoder_stub.hex()))
-
     return decoder_stub + encoded_payload
 
 
