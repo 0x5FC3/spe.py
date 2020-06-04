@@ -166,7 +166,7 @@ def generate_decoder_stub(payload_len, key):
     xor_asm = ''
 
     # if payload size can fit in one byte, use CL
-    if (len(payload) < 256):
+    if (payload_len < 256):
         # size 2 bytes
         offset_to_encoded_payload += 2
         xor_asm += f'mov CL, {hex(payload_len)}; '
