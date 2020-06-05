@@ -1,4 +1,7 @@
 # spe.py
+
+Blog post: https://pop.rdi.sh/writing-a-simple-polymorphic-engine/
+
 A simple polymorphic engine. When I say simple, I mean super simple. It just has basic functionality.
 
 Requires Python 3 and [Keystone Engine](https://www.keystone-engine.org/). 
